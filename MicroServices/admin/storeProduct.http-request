@@ -1,0 +1,11 @@
+{
+  "body": {
+    "content": "ewondGl0bGUnOidwcm9kdWN0MTEnLAonaW1hZ2UnOidpbWFnZTExJwp9",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {},
+  "method": "POST",
+  "title": "storeProduct",
+  "url": "http://localhost:8000/api/products"
+}
