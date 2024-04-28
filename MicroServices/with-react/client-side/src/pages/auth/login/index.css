@@ -1,0 +1,118 @@
+.form{
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0 1px #ccc;
+  transition: all 0.2s ease-in-out;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #6c24af;
+}
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.form-group {
+  margin-bottom: 20px ;
+}
+.form-group .label{
+  color: #fff;
+}
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #f6eded;
+  box-shadow: 0 0 0 1px #fafafa;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #000;
+  outline: none;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #222;
+}
+
+/* تنسيقات إضافية */
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-control:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.form-control-feedback {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #999;
+}
+
+.form-control-feedback::before {
+  content: attr(data-error);
+  display: none;
+}
+
+.form-control:focus + .form-control-feedback {
+  display: block;
+}
+
+/* تنسيقات Bootstrap */
+
+.form-control-lg {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.form-control-sm {
+  padding: 0.25rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.form-control-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-control-borderless {
+  border: none;
+  box-shadow: none;
+}
+
+.form-control-focus-within {
+  box-shadow: 0 0 0 1px #000;
+}
+
+.form-control-feedback-sm {
+  right: 8px;
+  top: 40%;
+  transform: translate(0, -40%);
+}
+
+.form-control-feedback-lg {
+  right: 12px;
+  top: 30%;
+  transform: translate(0, -30%);
+}

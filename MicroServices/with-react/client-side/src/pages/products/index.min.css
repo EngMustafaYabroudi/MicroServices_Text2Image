@@ -1,0 +1,28 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #000;
+  font-size: 24px;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  margin-top: 1rem;
+}
+
+/* Compressed version of index.css */

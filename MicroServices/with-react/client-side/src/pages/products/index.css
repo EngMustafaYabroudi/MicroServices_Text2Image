@@ -1,0 +1,31 @@
+.products {
+  position: relative;
+}
+
+.products .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  
+}
+
+.products .container .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.products .card .btn-like {  
+  color: white;
+  float: left;
+}
+.products .card .btn-like:hover {
+  background-color: green;
+  color: black;
+}
+.products .card .btn-download {
+  color: white;
+  float: right;
+}
